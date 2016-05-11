@@ -81,7 +81,6 @@ public abstract class FrmLogin extends javax.swing.JFrame {
         jPanel1.add(jLabel1, gridBagConstraints);
 
         txtClave.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        txtClave.setText("fastsell");
         txtClave.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         txtClave.setPreferredSize(new java.awt.Dimension(105, 21));
         txtClave.addActionListener(new java.awt.event.ActionListener() {
