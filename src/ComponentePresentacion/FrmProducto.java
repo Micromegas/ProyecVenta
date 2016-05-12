@@ -27,7 +27,7 @@ import javax.swing.UIManager;
 
 /**
  *
- * @author RicharD!!
+ * @author Guillermo!!
  */
 public class FrmProducto extends javax.swing.JFrame {
 

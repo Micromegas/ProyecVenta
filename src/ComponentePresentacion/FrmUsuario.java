@@ -22,7 +22,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public class FrmUsuario extends javax.swing.JFrame {
 

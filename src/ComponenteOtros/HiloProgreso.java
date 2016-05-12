@@ -8,7 +8,7 @@ import javax.swing.*;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public class HiloProgreso extends Thread {
 

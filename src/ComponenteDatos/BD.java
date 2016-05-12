@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public abstract class BD {
      public static Connection getConnection() {

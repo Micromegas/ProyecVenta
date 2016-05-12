@@ -6,7 +6,7 @@ package ComponenteClase;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public abstract class Categoria {
 

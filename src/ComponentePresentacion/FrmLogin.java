@@ -21,7 +21,7 @@ import javax.swing.UIManager;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public abstract class FrmLogin extends javax.swing.JFrame {
 

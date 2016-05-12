@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public class JDListaUsuarios extends javax.swing.JDialog {
     DefaultTableModel LUsuarios= new DefaultTableModel();

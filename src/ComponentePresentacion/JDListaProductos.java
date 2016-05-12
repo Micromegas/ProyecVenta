@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public class JDListaProductos extends javax.swing.JDialog {
 

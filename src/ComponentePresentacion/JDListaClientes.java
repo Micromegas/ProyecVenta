@@ -19,7 +19,7 @@ import ComponenteDatos.BDCliente;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public class JDListaClientes extends javax.swing.JDialog {
     DefaultTableModel LClientes= new DefaultTableModel();

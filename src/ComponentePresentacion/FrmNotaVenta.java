@@ -23,7 +23,7 @@ import java.text.SimpleDateFormat;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public class FrmNotaVenta extends javax.swing.JFrame {
     /*

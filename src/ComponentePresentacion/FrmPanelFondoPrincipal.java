@@ -16,7 +16,7 @@ import javax.swing.ImageIcon;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public class FrmPanelFondoPrincipal extends javax.swing.JPanel {
 

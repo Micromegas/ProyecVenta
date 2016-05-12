@@ -13,7 +13,7 @@ import net.sf.jasperreports.view.JasperViewer;*/
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public class ReporteEmpleado {
 

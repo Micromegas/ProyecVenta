@@ -20,7 +20,7 @@ import java.text.SimpleDateFormat;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public abstract class FrmMenu extends javax.swing.JFrame {
     // private BDReporteProductos jasper;

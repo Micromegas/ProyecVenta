@@ -8,7 +8,7 @@ import java.util.Date;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public abstract class Compra {
 

@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public class JDListaDetProv extends javax.swing.JDialog {
 

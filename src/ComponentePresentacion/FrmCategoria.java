@@ -26,7 +26,7 @@ import javax.swing.UIManager;
 
 /**
  *
- * @author RicharDK!!
+ * @author GuillermoK!!
  */
 public class FrmCategoria extends javax.swing.JFrame {
 

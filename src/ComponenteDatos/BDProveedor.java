@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public abstract class BDProveedor {
 

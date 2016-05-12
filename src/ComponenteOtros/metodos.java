@@ -16,7 +16,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public abstract class metodos {
 

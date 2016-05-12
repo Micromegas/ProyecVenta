@@ -22,7 +22,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public abstract class FrmBuscarProducto extends javax.swing.JFrame {
     DefaultTableModel LProductos = new DefaultTableModel();

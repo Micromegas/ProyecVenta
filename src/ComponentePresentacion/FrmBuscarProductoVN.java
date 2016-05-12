@@ -22,7 +22,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public class FrmBuscarProductoVN extends javax.swing.JFrame {
 

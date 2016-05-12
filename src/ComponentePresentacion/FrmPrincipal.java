@@ -16,7 +16,7 @@ import java.awt.BorderLayout;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public abstract  class  FrmPrincipal extends javax.swing.JFrame {
     FrmPanelFondoPrincipal fondoprinc = new FrmPanelFondoPrincipal();

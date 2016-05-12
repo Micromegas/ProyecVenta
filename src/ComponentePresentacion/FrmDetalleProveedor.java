@@ -18,7 +18,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public class FrmDetalleProveedor extends javax.swing.JFrame {
 

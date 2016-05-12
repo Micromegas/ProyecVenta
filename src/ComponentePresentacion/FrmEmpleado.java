@@ -25,7 +25,7 @@ import javax.swing.UIManager;
 
 /**
  *
- * @author RicharDK!!
+ * @author GuillermoK!!
  */
 public class FrmEmpleado extends javax.swing.JFrame {
     private ReporteEmpleado jasper;

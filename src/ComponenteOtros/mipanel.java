@@ -11,7 +11,7 @@ import javax.swing.ImageIcon;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public abstract class mipanel extends javax.swing.JPanel {
 

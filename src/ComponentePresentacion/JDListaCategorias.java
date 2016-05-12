@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public abstract class JDListaCategorias extends javax.swing.JDialog {
     DefaultTableModel LCategorias= new DefaultTableModel();

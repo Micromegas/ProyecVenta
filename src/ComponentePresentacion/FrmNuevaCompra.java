@@ -24,7 +24,7 @@ import javax.swing.UIManager;
 
 /**
  *
- * @author Richard
+ * @author Guillermo
  */
 public class FrmNuevaCompra extends javax.swing.JFrame {
 
