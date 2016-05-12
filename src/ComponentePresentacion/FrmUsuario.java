@@ -44,7 +44,7 @@ public class FrmUsuario extends javax.swing.JFrame {
          */
         // Para carbar la lista de Empleados al combobox
         try {
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bdsistema", "root", "");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bdsistema", "root", "21579097");
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT apellido FROM EMPLEADO");
             while (rs.next()) {
