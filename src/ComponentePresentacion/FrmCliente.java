@@ -513,7 +513,7 @@ public class FrmCliente extends javax.swing.JFrame {
     private void rbCjuridicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbCjuridicoActionPerformed
         // TODO add your handling code here:
         if (rbCjuridico.isSelected()) {
-            txtNomDocumentoC.setText("RUC");
+            txtNomDocumentoC.setText("CUIT");
         }
     }//GEN-LAST:event_rbCjuridicoActionPerformed
 
