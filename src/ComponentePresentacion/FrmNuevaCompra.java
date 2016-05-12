@@ -413,10 +413,10 @@ public class FrmNuevaCompra extends javax.swing.JFrame {
         } else if (cboTipoComprobante.getSelectedItem().toString().equalsIgnoreCase("FACTURA")) {
             FrmTransaccion FrmTC = new FrmTransaccion();
             if (txtDocumentoC.getText().length() == 11) {
-                FrmTC.lblRucT.setText("RUC");
+                FrmTC.lblRucT.setText("CUIT");
                 FrmTC.txtRucF.setText(txtDocumentoC.getText());
             } else {
-                FrmTC.lblRucT.setText("RUC");
+                FrmTC.lblRucT.setText("CUIT");
                 FrmTC.txtRucF.setText("");
             }
             FrmTC.lblNombreTipoComp.setText("FACTURA DE VENTA");

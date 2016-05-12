@@ -194,20 +194,20 @@ public class FrmTransaccion extends javax.swing.JFrame {
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jtTransacProd.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jtTransacProd.setFont(new java.awt.Font("Tahoma", 0, 12));
+        jtTransacProd.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jtTransacProd.setModel(LTransacciones);
         jScrollPane2.setViewportView(jtTransacProd);
 
         jPanel7.setBackground(new java.awt.Color(247, 254, 255));
         jPanel7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12));
+        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel6.setText("SUB. TOT:");
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 12));
+        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel11.setText("I.G.V:");
 
-        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 12));
+        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel12.setText("TOT. A PAGAR:");
 
         txtSubTotalT.setEditable(false);
@@ -227,12 +227,12 @@ public class FrmTransaccion extends javax.swing.JFrame {
             }
         });
 
-        jLabel13.setFont(new java.awt.Font("Tahoma", 0, 12));
+        jLabel13.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel13.setText("IMPORTE:");
 
         txtImporteT.setEditable(false);
 
-        jLabel14.setFont(new java.awt.Font("Tahoma", 0, 12));
+        jLabel14.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel14.setText("VUELTO:");
 
         txtVuelto.setEditable(false);
@@ -295,14 +295,14 @@ public class FrmTransaccion extends javax.swing.JFrame {
                 .addGap(16, 16, 16))
         );
 
-        lblNombreTipoComp.setFont(new java.awt.Font("Tahoma", 0, 24));
+        lblNombreTipoComp.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         lblNombreTipoComp.setText("FACTURA DE VENTA");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12));
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel2.setText("Nro :");
 
         txtNroCompT.setEditable(false);
-        txtNroCompT.setFont(new java.awt.Font("Tahoma", 0, 13));
+        txtNroCompT.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         txtNroCompT.setHorizontalAlignment(javax.swing.JTextField.CENTER);
 
         jLabel8.setText("FECHA:");
@@ -322,7 +322,7 @@ public class FrmTransaccion extends javax.swing.JFrame {
 
         txtTelefonoT.setEditable(false);
 
-        lblRucT.setText("RUC:");
+        lblRucT.setText("CUIT:");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -378,7 +378,7 @@ public class FrmTransaccion extends javax.swing.JFrame {
                     .addComponent(jLabel9)
                     .addComponent(jLabel8))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jSeparator1, javax.swing.GroupLayout.DEFAULT_SIZE, 1, Short.MAX_VALUE)
+                .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lblNombreTipoComp)
                 .addGap(18, 18, 18)
@@ -422,7 +422,7 @@ public class FrmTransaccion extends javax.swing.JFrame {
             .addGap(0, 150, Short.MAX_VALUE)
         );
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 12));
+        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel7.setText("Id Producto:");
 
         txtIdProdT.setEditable(false);
@@ -433,15 +433,15 @@ public class FrmTransaccion extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12));
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Stock :");
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12));
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("Precio Und :");
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 12));
+        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("Cantidad :");
 
@@ -453,7 +453,7 @@ public class FrmTransaccion extends javax.swing.JFrame {
         txtStockT.setEditable(false);
         txtStockT.setHorizontalAlignment(javax.swing.JTextField.CENTER);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 12));
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel1.setText("Unidad Med :");
 
         txtUnidadMedT.setEditable(false);
@@ -482,7 +482,7 @@ public class FrmTransaccion extends javax.swing.JFrame {
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                     .addComponent(txtIdProdT, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addComponent(jpImageProd, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                        .addContainerGap(10, Short.MAX_VALUE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel3Layout.createSequentialGroup()
@@ -555,7 +555,7 @@ public class FrmTransaccion extends javax.swing.JFrame {
         jToolBar1.setRollover(true);
 
         btnAgregar.setBackground(new java.awt.Color(247, 254, 255));
-        btnAgregar.setFont(new java.awt.Font("Tahoma", 0, 12));
+        btnAgregar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnAgregar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ComponenteImagenes/1283147462_plus_48.png"))); // NOI18N
         btnAgregar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -565,7 +565,7 @@ public class FrmTransaccion extends javax.swing.JFrame {
         jToolBar1.add(btnAgregar);
 
         btnEliminar.setBackground(new java.awt.Color(247, 254, 255));
-        btnEliminar.setFont(new java.awt.Font("Tahoma", 0, 12));
+        btnEliminar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnEliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ComponenteImagenes/1283147878_dbmin2.png"))); // NOI18N
         btnEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -576,7 +576,7 @@ public class FrmTransaccion extends javax.swing.JFrame {
         jToolBar1.add(jSeparator2);
 
         btnImporte.setBackground(new java.awt.Color(247, 254, 255));
-        btnImporte.setFont(new java.awt.Font("Tahoma", 0, 12));
+        btnImporte.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnImporte.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ComponenteImagenes/1283148262_taxes.png"))); // NOI18N
         btnImporte.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         btnImporte.addActionListener(new java.awt.event.ActionListener() {
@@ -587,7 +587,7 @@ public class FrmTransaccion extends javax.swing.JFrame {
         jToolBar1.add(btnImporte);
 
         btnCalcular.setBackground(new java.awt.Color(247, 254, 255));
-        btnCalcular.setFont(new java.awt.Font("Tahoma", 0, 12));
+        btnCalcular.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnCalcular.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ComponenteImagenes/1283149480_kcalc.png"))); // NOI18N
         btnCalcular.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -623,7 +623,7 @@ public class FrmTransaccion extends javax.swing.JFrame {
         jToolBar1.add(jButton2);
 
         btnAtrasT.setBackground(new java.awt.Color(247, 254, 255));
-        btnAtrasT.setFont(new java.awt.Font("Tahoma", 0, 12));
+        btnAtrasT.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnAtrasT.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ComponenteImagenes/1283127227_print_printer.png"))); // NOI18N
         btnAtrasT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -659,7 +659,7 @@ public class FrmTransaccion extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jToolBar1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 737, Short.MAX_VALUE)
+                    .addComponent(jToolBar1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );

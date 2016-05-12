@@ -194,9 +194,9 @@ public class FrmDetalleProveedor extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(247, 254, 255));
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "PROVEEDOR", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 12))); // NOI18N
-        jPanel3.setFont(new java.awt.Font("Tahoma", 0, 12));
+        jPanel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
 
-        jLabel1.setText("RUC :");
+        jLabel1.setText("CUIT :");
 
         jLabel8.setText("RAZON SOCIAL :");
 

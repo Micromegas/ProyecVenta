@@ -56,7 +56,7 @@ public class FrmCliente extends javax.swing.JFrame {
             txtTelefonoC.setText(c.getTelefono());
             btnEditarC.setEnabled(true);
             btnCancelarC.setEnabled(true);
-            if (txtNomDocumentoC.getText().equalsIgnoreCase("RUC")) {
+            if (txtNomDocumentoC.getText().equalsIgnoreCase("CUIT")) {
                 rbCjuridico.setSelected(true);
             } else {
                 rbCnatural.setSelected(true);
