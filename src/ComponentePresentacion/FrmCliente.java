@@ -139,8 +139,8 @@ public class FrmCliente extends javax.swing.JFrame {
 
         rbCnatural.setBackground(new java.awt.Color(247, 254, 255));
         BtnTipoCliente.add(rbCnatural);
-        rbCnatural.setFont(new java.awt.Font("Tahoma", 0, 12));
-        rbCnatural.setText("C.Natural");
+        rbCnatural.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        rbCnatural.setText("P.Natural");
         rbCnatural.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 rbCnaturalActionPerformed(evt);
@@ -152,8 +152,8 @@ public class FrmCliente extends javax.swing.JFrame {
 
         rbCjuridico.setBackground(new java.awt.Color(247, 254, 255));
         BtnTipoCliente.add(rbCjuridico);
-        rbCjuridico.setFont(new java.awt.Font("Tahoma", 0, 12));
-        rbCjuridico.setText("C.Juridico");
+        rbCjuridico.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        rbCjuridico.setText("P.Juridica");
         rbCjuridico.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 rbCjuridicoActionPerformed(evt);
@@ -163,9 +163,9 @@ public class FrmCliente extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel4.setText("Nombre del Documento:");
 
-        txtNomDocumentoC.setBackground(new java.awt.Color(247, 254, 255));
         txtNomDocumentoC.setEditable(false);
-        txtNomDocumentoC.setFont(new java.awt.Font("Tahoma", 0, 12));
+        txtNomDocumentoC.setBackground(new java.awt.Color(247, 254, 255));
+        txtNomDocumentoC.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txtNomDocumentoC.setText("Nombre del Documento");
         txtNomDocumentoC.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
@@ -178,7 +178,7 @@ public class FrmCliente extends javax.swing.JFrame {
             }
         });
 
-        btnBuscarC.setFont(new java.awt.Font("Tahoma", 0, 12));
+        btnBuscarC.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnBuscarC.setText(".....");
         btnBuscarC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -195,7 +195,7 @@ public class FrmCliente extends javax.swing.JFrame {
             ex.printStackTrace();
         }
 
-        btnNuevoC.setFont(new java.awt.Font("Tahoma", 0, 12));
+        btnNuevoC.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnNuevoC.setText("Nuevo");
         btnNuevoC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -203,7 +203,7 @@ public class FrmCliente extends javax.swing.JFrame {
             }
         });
 
-        btnAgregarC.setFont(new java.awt.Font("Tahoma", 0, 12));
+        btnAgregarC.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnAgregarC.setText("Agregar");
         btnAgregarC.setEnabled(false);
         btnAgregarC.addActionListener(new java.awt.event.ActionListener() {
@@ -212,7 +212,7 @@ public class FrmCliente extends javax.swing.JFrame {
             }
         });
 
-        btnEliminarC.setFont(new java.awt.Font("Tahoma", 0, 12));
+        btnEliminarC.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnEliminarC.setText("Eliminar");
         btnEliminarC.setEnabled(false);
         btnEliminarC.addActionListener(new java.awt.event.ActionListener() {
@@ -221,7 +221,7 @@ public class FrmCliente extends javax.swing.JFrame {
             }
         });
 
-        btnEditarC.setFont(new java.awt.Font("Tahoma", 0, 12));
+        btnEditarC.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnEditarC.setText("Editar");
         btnEditarC.setEnabled(false);
         btnEditarC.addActionListener(new java.awt.event.ActionListener() {
@@ -230,7 +230,7 @@ public class FrmCliente extends javax.swing.JFrame {
             }
         });
 
-        btnCancelarC.setFont(new java.awt.Font("Tahoma", 0, 12));
+        btnCancelarC.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnCancelarC.setText("Cancelar");
         btnCancelarC.setEnabled(false);
         btnCancelarC.addActionListener(new java.awt.event.ActionListener() {
@@ -239,7 +239,7 @@ public class FrmCliente extends javax.swing.JFrame {
             }
         });
 
-        btnMostrarC.setFont(new java.awt.Font("Tahoma", 0, 12));
+        btnMostrarC.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnMostrarC.setText("Mostrar");
         btnMostrarC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -247,7 +247,7 @@ public class FrmCliente extends javax.swing.JFrame {
             }
         });
 
-        btnSalirC.setFont(new java.awt.Font("Tahoma", 0, 12));
+        btnSalirC.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnSalirC.setText("Salir");
         btnSalirC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -305,7 +305,7 @@ public class FrmCliente extends javax.swing.JFrame {
                         .addComponent(txtCodigoCl, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnBuscarC, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(btnSalirC, javax.swing.GroupLayout.DEFAULT_SIZE, 489, Short.MAX_VALUE))
+                    .addComponent(btnSalirC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(24, 24, 24))
         );
         jPanel2Layout.setVerticalGroup(
@@ -350,7 +350,7 @@ public class FrmCliente extends javax.swing.JFrame {
                 .addGap(25, 25, 25))
         );
 
-        jLabel7.setFont(new java.awt.Font("Baskerville Old Face", 0, 24));
+        jLabel7.setFont(new java.awt.Font("Baskerville Old Face", 0, 24)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("REGISTRO DE CLIENTE");
 
@@ -359,7 +359,7 @@ public class FrmCliente extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(250, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel7)
                 .addGap(18, 18, 18))
             .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
